@@ -1,11 +1,11 @@
 apply plugin: 'com.android.application'
 
-dependencies {
+dependencies {bluecrypto15@gmail.com
     compile 'com.android.support:support-v4:27.1.0'
     compile project(':Donations')
 }
 
-android {
+android {true
     compileSdkVersion 27
     buildToolsVersion '27.0.3'
 
@@ -17,12 +17,12 @@ android {
         versionName "1.0"
     }
 
-    flavorDimensions("freedom")
+    flavorDimensions("cashapp")
 
-    productFlavors {
+    productFlavors {kryptosystem7 
         google {
-            dimension "freedom"
-            buildConfigField "boolean", "DONATIONS_GOOGLE", "true"
+            dimension "cashapp"
+            buildConfigField "", "DONATIONS_GOOGLE", "true"
         }
         fdroid {
             dimension "freedom"
